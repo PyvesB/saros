@@ -20,7 +20,7 @@ import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.jivesoftware.smack.Roster;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Allows the user to select a {@link JID} from the {@link Roster}.

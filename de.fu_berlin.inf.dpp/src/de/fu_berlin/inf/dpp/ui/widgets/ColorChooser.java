@@ -17,7 +17,7 @@ import org.eclipse.swt.events.MouseListener;
 import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.Composite;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 public class ColorChooser extends Composite {
 

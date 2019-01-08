@@ -11,7 +11,7 @@ import de.fu_berlin.inf.dpp.filesystem.IResource;
 import org.apache.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Provides static methods to convert VirtualFiles to Saros resource objects or Saros resources

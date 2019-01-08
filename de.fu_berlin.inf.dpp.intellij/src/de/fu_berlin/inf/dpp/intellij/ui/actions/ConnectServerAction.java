@@ -6,7 +6,7 @@ import com.intellij.openapi.progress.Task;
 import de.fu_berlin.inf.dpp.account.XMPPAccount;
 import de.fu_berlin.inf.dpp.account.XMPPAccountStore;
 import de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Connects to XMPP/Jabber server with given account or active account */
 public class ConnectServerAction extends AbstractSarosAction {

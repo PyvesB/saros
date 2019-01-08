@@ -43,8 +43,8 @@ import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.core.runtime.Platform;
 import org.osgi.framework.Bundle;
 import org.osgi.service.prefs.Preferences;
-import org.picocontainer.BindKey;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * Factory used for creating the Saros context when running as Eclipse plugin.

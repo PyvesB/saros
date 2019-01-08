@@ -65,7 +65,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IEditorPart;
 import org.eclipse.ui.IFileEditorInput;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 public class AddProjectToSessionWizard extends Wizard {
 

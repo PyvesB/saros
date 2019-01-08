@@ -7,7 +7,7 @@ import de.fu_berlin.inf.dpp.ui.util.WizardUtils;
 import org.eclipse.core.commands.AbstractHandler;
 import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.core.commands.ExecutionException;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 public class StartSarosConfigurationHandler extends AbstractHandler {
 

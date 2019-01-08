@@ -15,7 +15,7 @@ import javax.swing.tree.MutableTreeNode;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.packet.Presence;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Root node for the tree of contacts, that a user has in their contact list.

@@ -10,7 +10,7 @@ import de.fu_berlin.inf.dpp.exceptions.IllegalAWTContextException;
 import java.awt.Component;
 import java.util.concurrent.atomic.AtomicReference;
 import org.apache.log4j.Logger;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Dialog helper used to show messages in safe manner by starting it on the AWT event dispatcher

@@ -10,7 +10,7 @@ import de.fu_berlin.inf.dpp.session.ISarosSession;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import org.apache.log4j.Logger;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /** Executes FileActivities and performs actual filesystem operations. */
 public class FileActivityExecutor extends AbstractActivityConsumer implements Startable {

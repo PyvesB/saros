@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import org.apache.log4j.Logger;
 import org.bitlet.weupnp.GatewayDevice;
 import org.bitlet.weupnp.PortMappingEntry;
-import org.picocontainer.Disposable;
+import saros.org.picocontainer.Disposable;
 
 /*
  *  Class for performing UPnP functions (using the weupnp library) and managing the mapping state.

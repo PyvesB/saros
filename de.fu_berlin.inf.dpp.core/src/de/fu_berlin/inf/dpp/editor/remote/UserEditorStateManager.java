@@ -10,7 +10,7 @@ import de.fu_berlin.inf.dpp.session.User;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * This class contains the state of the editors, viewports and selections of all remote users as we

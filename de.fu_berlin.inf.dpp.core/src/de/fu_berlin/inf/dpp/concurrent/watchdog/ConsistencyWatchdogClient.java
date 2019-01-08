@@ -27,7 +27,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import org.apache.log4j.Logger;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * This class is responsible for two things:

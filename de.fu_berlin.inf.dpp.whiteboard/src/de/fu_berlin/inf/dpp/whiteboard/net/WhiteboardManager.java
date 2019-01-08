@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 import org.apache.log4j.Logger;
 import org.eclipse.swt.graphics.RGB;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This class makes the interconnection between Saros and SXE.

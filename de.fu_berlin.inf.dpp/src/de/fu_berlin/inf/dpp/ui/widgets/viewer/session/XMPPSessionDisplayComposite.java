@@ -18,7 +18,7 @@ import org.eclipse.swt.events.DisposeListener;
 import org.eclipse.swt.widgets.Composite;
 import org.jivesoftware.smack.Connection;
 import org.jivesoftware.smack.Roster;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This {@link Composite} displays the {@link SarosSession} and the {@link Roster} in parallel.

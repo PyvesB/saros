@@ -8,7 +8,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreePath;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Tree click listener for showing {@link ContactPopMenu} or {@link SessionPopMenu}. */
 public class TreeClickListener extends MouseAdapter {

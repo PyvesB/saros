@@ -23,7 +23,7 @@ import org.eclipse.ui.ISelectionListener;
 import org.eclipse.ui.IWorkbenchPart;
 import org.jivesoftware.smack.Connection;
 import org.jivesoftware.smack.RosterEntry;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Renames the nickname of the selected roster entry.

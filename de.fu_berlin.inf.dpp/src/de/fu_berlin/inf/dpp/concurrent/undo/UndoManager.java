@@ -51,8 +51,8 @@ import org.eclipse.jface.text.BadLocationException;
 import org.eclipse.jface.text.IDocument;
 import org.eclipse.ui.part.FileEditorInput;
 import org.eclipse.ui.texteditor.IDocumentProvider;
-import org.picocontainer.Disposable;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.Disposable;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This UndoManager is not an implementation of the Eclipse IUndoManager. It only listens to the

@@ -13,7 +13,7 @@ import de.fu_berlin.inf.dpp.synchronize.UISynchronizer;
 import de.fu_berlin.inf.dpp.util.ThreadUtils;
 import java.util.concurrent.CancellationException;
 import org.apache.log4j.Logger;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * This manager is responsible for handling {@link Permission} changes. It both produces and

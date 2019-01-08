@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import org.apache.log4j.Logger;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * This manager is responsible for handling color changes and managing the currently available

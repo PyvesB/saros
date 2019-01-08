@@ -12,7 +12,7 @@ import de.fu_berlin.inf.dpp.util.ThreadUtils;
 import org.apache.log4j.Logger;
 import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.packet.Packet;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * A session component which listens for leave and kick messages from the session's host and stops

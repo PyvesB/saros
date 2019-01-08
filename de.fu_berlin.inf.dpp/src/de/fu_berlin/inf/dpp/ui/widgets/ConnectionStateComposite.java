@@ -20,7 +20,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.StreamError;
 import org.jivesoftware.smack.packet.XMPPError;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 public class ConnectionStateComposite extends Composite {
 

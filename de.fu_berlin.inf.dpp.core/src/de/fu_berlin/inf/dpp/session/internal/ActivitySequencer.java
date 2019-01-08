@@ -44,7 +44,7 @@ import org.apache.log4j.Logger;
 import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smack.packet.PacketExtension;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * The ActivitySequencer is responsible for making sure that transformed {@linkplain IActivity

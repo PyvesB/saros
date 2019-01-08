@@ -5,7 +5,7 @@ import de.fu_berlin.inf.dpp.intellij.project.filesystem.ModuleInitialization;
 import de.fu_berlin.inf.dpp.session.ISarosSession;
 import de.fu_berlin.inf.dpp.session.ISarosSessionContextFactory;
 import de.fu_berlin.inf.dpp.session.SarosCoreSessionContextFactory;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /** IntelliJ implementation of the {@link ISarosSessionContextFactory} interface. */
 public class SarosIntellijSessionContextFactory extends SarosCoreSessionContextFactory {

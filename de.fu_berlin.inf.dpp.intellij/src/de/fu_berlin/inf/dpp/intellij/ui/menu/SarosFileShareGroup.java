@@ -19,7 +19,7 @@ import org.jetbrains.annotations.Nullable;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.packet.Presence;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Saros action group for the pop-up menu when right-clicking on a module. */
 public class SarosFileShareGroup extends ActionGroup {

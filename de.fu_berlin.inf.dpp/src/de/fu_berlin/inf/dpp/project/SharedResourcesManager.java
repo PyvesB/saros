@@ -26,8 +26,8 @@ import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.jobs.IJobManager;
 import org.eclipse.core.runtime.jobs.Job;
-import org.picocontainer.Startable;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.Startable;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This manager is responsible for handling all resource changes that aren't handled by the

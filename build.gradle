@@ -118,8 +118,9 @@ configure(projectsToConfigure) { project ->
 // remove all build dirs. The frontend package has no build directory
 task cleanAll(dependsOn: projectsToConfigure.collect{":${it.name}:clean"} << 'clean')
 
-task prepareEclipse(dependsOn: projectsToConfigure.collect { [":${it.name}:cleanEclipseProject", ":${it.name}:cleanEclipseClasspath"] }.flatten() +
-                               projectsToConfigure.collect { [":${it.name}:eclipseProject", ":${it.name}:eclipseClasspath"]}.flatten() +
+ext.projectsToPrepare = projectsToConfigure + project(':saros.picocontainer')
+task prepareEclipse(dependsOn: projectsToPrepare.collect { [":${it.name}:cleanEclipseProject", ":${it.name}:cleanEclipseClasspath"] }.flatten() +
+                               projectsToPrepare.collect { [":${it.name}:eclipseProject", ":${it.name}:eclipseClasspath"]}.flatten() +
                                ['mavenizeP2Repository', 'generateLibAll'])
 
 task prepareIntellij(dependsOn: ['mavenizeP2Repository'])

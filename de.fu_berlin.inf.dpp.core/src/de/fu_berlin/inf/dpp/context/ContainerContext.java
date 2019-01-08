@@ -31,14 +31,14 @@ import de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService;
 import java.io.File;
 import java.util.List;
 import org.apache.log4j.Logger;
-import org.picocontainer.ComponentMonitor;
-import org.picocontainer.MutablePicoContainer;
-import org.picocontainer.PicoBuilder;
-import org.picocontainer.PicoContainer;
-import org.picocontainer.injectors.AnnotatedFieldInjection;
-import org.picocontainer.injectors.CompositeInjection;
-import org.picocontainer.injectors.ConstructorInjection;
-import org.picocontainer.injectors.Reinjector;
+import saros.org.picocontainer.ComponentMonitor;
+import saros.org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.PicoBuilder;
+import saros.org.picocontainer.PicoContainer;
+import saros.org.picocontainer.injectors.AnnotatedFieldInjection;
+import saros.org.picocontainer.injectors.CompositeInjection;
+import saros.org.picocontainer.injectors.ConstructorInjection;
+import saros.org.picocontainer.injectors.Reinjector;
 
 /**
  * @JTourBusStop 5, Some Basics:

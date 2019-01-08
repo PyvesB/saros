@@ -4,7 +4,7 @@ import de.fu_berlin.inf.dpp.Saros;
 import de.fu_berlin.inf.dpp.SarosPluginContext;
 import de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler;
 import org.eclipse.core.expressions.PropertyTester;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Adds tests to a running Saros plugin. Currently only supports several network connection and

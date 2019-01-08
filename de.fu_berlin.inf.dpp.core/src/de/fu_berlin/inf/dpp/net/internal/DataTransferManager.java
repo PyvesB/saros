@@ -30,7 +30,7 @@ import java.util.zip.Deflater;
 import java.util.zip.Inflater;
 import org.apache.log4j.Logger;
 import org.jivesoftware.smack.Connection;
-import org.picocontainer.annotations.Nullable;
+import saros.org.picocontainer.annotations.Nullable;
 
 /**
  * This class is responsible for handling all transfers of binary data. It maintains a map of

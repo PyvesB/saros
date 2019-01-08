@@ -15,7 +15,7 @@ import java.util.List;
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.spi.LoggingEvent;
 import org.jivesoftware.smack.Connection;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * FileAppender which can replace date patterns in the file name but also can replace a %s with the

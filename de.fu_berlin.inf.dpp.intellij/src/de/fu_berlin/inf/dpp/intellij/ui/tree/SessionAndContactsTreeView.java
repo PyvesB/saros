@@ -17,7 +17,7 @@ import javax.swing.tree.TreeCellRenderer;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
 import org.jivesoftware.smack.Connection;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Saros tree view for contacts and sessions. */
 public class SessionAndContactsTreeView extends JTree {

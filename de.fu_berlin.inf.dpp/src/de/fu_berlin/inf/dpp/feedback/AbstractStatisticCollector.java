@@ -1,7 +1,7 @@
 package de.fu_berlin.inf.dpp.feedback;
 
 import de.fu_berlin.inf.dpp.session.ISarosSession;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * Abstract base class for a StatisticCollector which registers itself with a StatisticManager and

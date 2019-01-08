@@ -7,7 +7,7 @@ import de.fu_berlin.inf.dpp.test.mocks.ContextMocker;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /** Check {@link EclipseHTMLUIContextFactory} for internal integrity. */
 public class EclipseHTMLUIContextFactoryTest {

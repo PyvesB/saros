@@ -28,7 +28,7 @@ import org.eclipse.core.runtime.SubMonitor;
 import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.filter.PacketFilter;
 import org.jivesoftware.smack.packet.Packet;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Uses Smack and Saros to establish the SXE communication.</br>

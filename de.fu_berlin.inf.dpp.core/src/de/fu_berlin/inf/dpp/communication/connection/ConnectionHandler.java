@@ -19,7 +19,7 @@ import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.proxy.ProxyInfo;
 import org.jivesoftware.smackx.ServiceDiscoveryManager;
-import org.picocontainer.annotations.Nullable;
+import saros.org.picocontainer.annotations.Nullable;
 
 /**
  * Facade for handling connection establishment and connection events. This facade should be

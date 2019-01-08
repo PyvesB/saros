@@ -21,7 +21,7 @@ import java.text.MessageFormat;
 import java.util.HashSet;
 import java.util.Set;
 import org.apache.log4j.Logger;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Button for triggering a {@link ConsistencyAction}. Displays a different symbol when state is

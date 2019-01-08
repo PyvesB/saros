@@ -4,15 +4,15 @@ import de.fu_berlin.inf.dpp.context.IContextFactory;
 import java.util.ArrayList;
 import java.util.List;
 import org.easymock.EasyMock;
-import org.picocontainer.BindKey;
-import org.picocontainer.DefaultPicoContainer;
-import org.picocontainer.MutablePicoContainer;
-import org.picocontainer.Parameter;
-import org.picocontainer.PicoBuilder;
-import org.picocontainer.injectors.AnnotatedFieldInjection;
-import org.picocontainer.injectors.CompositeInjection;
-import org.picocontainer.injectors.ConstructorInjection;
 import org.powermock.api.easymock.PowerMock;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.DefaultPicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.Parameter;
+import saros.org.picocontainer.PicoBuilder;
+import saros.org.picocontainer.injectors.AnnotatedFieldInjection;
+import saros.org.picocontainer.injectors.CompositeInjection;
+import saros.org.picocontainer.injectors.ConstructorInjection;
 
 /**
  * Facilitates integration tests by offering multiple ways to create a PicoContainer full of mocked

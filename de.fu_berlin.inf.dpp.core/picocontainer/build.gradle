@@ -21,6 +21,7 @@ buildscript {
 
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'java'
+apply plugin: 'eclipse'
 
 version = '2.11.2'
 
@@ -30,6 +31,7 @@ repositories {
 
 dependencies {
   compile "org.picocontainer:picocontainer:$version"
+  testImplementation 'junit:junit:4.12'
 }
 
 shadowJar {

@@ -6,7 +6,7 @@ import de.fu_berlin.inf.dpp.communication.extensions.ActivitiesExtension;
 import de.fu_berlin.inf.dpp.net.xmpp.JID;
 import de.fu_berlin.inf.dpp.session.ISarosSession;
 import de.fu_berlin.inf.dpp.session.User;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * Converts session-dependent User objects to session-independent XML representations, and vice

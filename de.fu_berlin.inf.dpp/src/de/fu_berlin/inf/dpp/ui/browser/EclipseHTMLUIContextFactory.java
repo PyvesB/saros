@@ -6,7 +6,7 @@ import de.fu_berlin.inf.dpp.ui.ide_embedding.DialogManager;
 import de.fu_berlin.inf.dpp.ui.ide_embedding.IUIResourceLocator;
 import de.fu_berlin.inf.dpp.ui.util.ICollaborationUtils;
 import de.fu_berlin.inf.dpp.util.EclipseCollaborationUtilsImpl;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * Context factory that provides the necessary components that are required for the {@link

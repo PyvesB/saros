@@ -37,8 +37,8 @@ import de.fu_berlin.inf.dpp.session.ProjectNegotiationTypeHook;
 import de.fu_berlin.inf.dpp.session.SarosSessionManager;
 import de.fu_berlin.inf.dpp.versioning.VersionManager;
 import java.util.Arrays;
-import org.picocontainer.BindKey;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * This is the basic core factory for Saros. All components that are created by this factory

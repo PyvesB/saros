@@ -13,7 +13,7 @@ import de.fu_berlin.inf.dpp.session.User;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import org.apache.log4j.Logger;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /*
  * TODO Move this class into the core once another Saros implementation also wants to display which

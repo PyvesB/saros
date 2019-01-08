@@ -23,7 +23,7 @@ import org.eclipse.jface.wizard.WizardPage;
 import org.jivesoftware.smack.Connection;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.XMPPException;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Wizard for adding a new contact to the {@link Roster roster} of the currently connected user.

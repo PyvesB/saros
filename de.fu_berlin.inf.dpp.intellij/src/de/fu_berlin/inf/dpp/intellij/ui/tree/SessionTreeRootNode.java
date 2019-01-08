@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Session tree root node. */
 public class SessionTreeRootNode extends DefaultMutableTreeNode {

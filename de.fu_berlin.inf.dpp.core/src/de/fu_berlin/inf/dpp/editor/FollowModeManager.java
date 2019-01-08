@@ -20,7 +20,7 @@ import de.fu_berlin.inf.dpp.session.ISarosSessionContextFactory;
 import de.fu_berlin.inf.dpp.session.ISessionListener;
 import de.fu_berlin.inf.dpp.session.User;
 import java.util.concurrent.CopyOnWriteArrayList;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * Allows to follow other session participants. To be in the Follow Mode means to locally mirror

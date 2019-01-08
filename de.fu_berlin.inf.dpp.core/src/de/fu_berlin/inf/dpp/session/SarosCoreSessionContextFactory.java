@@ -19,7 +19,7 @@ import de.fu_berlin.inf.dpp.session.internal.UserInformationHandler;
 import de.fu_berlin.inf.dpp.session.internal.timeout.ClientSessionTimeoutHandler;
 import de.fu_berlin.inf.dpp.session.internal.timeout.ServerSessionTimeoutHandler;
 import de.fu_berlin.inf.dpp.synchronize.StopManager;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * Basic {@link ISarosSessionContextFactory} implementation which creates the {@link ISarosSession

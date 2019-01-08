@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.NullProgressMonitor;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 public class FileActivityConsumer extends AbstractActivityConsumer implements Startable {
 

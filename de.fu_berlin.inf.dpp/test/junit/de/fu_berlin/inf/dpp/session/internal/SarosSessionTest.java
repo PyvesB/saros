@@ -58,17 +58,17 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.osgi.service.prefs.Preferences;
-import org.picocontainer.BindKey;
-import org.picocontainer.MutablePicoContainer;
-import org.picocontainer.PicoBuilder;
-import org.picocontainer.PicoContainer;
-import org.picocontainer.injectors.AnnotatedFieldInjection;
-import org.picocontainer.injectors.CompositeInjection;
-import org.picocontainer.injectors.ConstructorInjection;
-import org.picocontainer.injectors.Reinjector;
 import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.PicoBuilder;
+import saros.org.picocontainer.PicoContainer;
+import saros.org.picocontainer.injectors.AnnotatedFieldInjection;
+import saros.org.picocontainer.injectors.CompositeInjection;
+import saros.org.picocontainer.injectors.ConstructorInjection;
+import saros.org.picocontainer.injectors.Reinjector;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({StatisticManager.class, ResourcesPlugin.class})

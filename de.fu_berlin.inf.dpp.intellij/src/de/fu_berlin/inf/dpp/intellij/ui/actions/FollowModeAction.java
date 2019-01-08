@@ -10,7 +10,7 @@ import de.fu_berlin.inf.dpp.ui.util.ModelFormatUtils;
 import de.fu_berlin.inf.dpp.util.ThreadUtils;
 import java.util.ArrayList;
 import java.util.List;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Action to activateor deactivate follow mode. */
 public class FollowModeAction extends AbstractSarosAction {

@@ -17,7 +17,7 @@ import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.OperationCanceledException;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.core.runtime.jobs.Job;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * The StatisticManager is supposed to gather statistic data and submit it at the end of a session

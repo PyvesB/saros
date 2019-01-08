@@ -15,7 +15,7 @@ import java.util.Random;
 import org.apache.log4j.Logger;
 import org.eclipse.jface.preference.IPreferenceStore;
 import org.jivesoftware.smack.Connection;
-import org.picocontainer.annotations.Nullable;
+import saros.org.picocontainer.annotations.Nullable;
 
 /**
  * The MUCNegotiationManager is responsible for transmitting the Communication config of the host to

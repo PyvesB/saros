@@ -30,7 +30,7 @@ import de.fu_berlin.inf.dpp.ui.pages.SessionWizardPage;
 import de.fu_berlin.inf.dpp.ui.renderer.AccountRenderer;
 import de.fu_berlin.inf.dpp.ui.renderer.ProjectListRenderer;
 import de.fu_berlin.inf.dpp.ui.renderer.StateRenderer;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * This is the HTML UI core factory for Saros. All components that are created by this factory

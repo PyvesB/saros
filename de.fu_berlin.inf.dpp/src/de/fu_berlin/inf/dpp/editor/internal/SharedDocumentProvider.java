@@ -12,7 +12,7 @@ import de.fu_berlin.inf.dpp.session.User;
 import org.apache.log4j.Logger;
 import org.eclipse.ui.IFileEditorInput;
 import org.eclipse.ui.editors.text.TextFileDocumentProvider;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This Document provider tries tell others that files are not editable if the local user has no

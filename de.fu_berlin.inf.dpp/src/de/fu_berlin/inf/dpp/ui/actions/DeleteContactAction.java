@@ -27,7 +27,7 @@ import org.eclipse.ui.PlatformUI;
 import org.jivesoftware.smack.Connection;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.XMPPException;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 public class DeleteContactAction extends Action implements Disposable {
 

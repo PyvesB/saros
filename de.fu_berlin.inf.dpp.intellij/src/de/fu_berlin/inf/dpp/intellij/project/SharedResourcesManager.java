@@ -26,7 +26,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import org.apache.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /** The SharedResourcesManager creates and handles file and folder activities. */
 public class SharedResourcesManager extends AbstractActivityProducer implements Startable {

@@ -6,7 +6,7 @@ import de.fu_berlin.inf.dpp.ui.pages.MainPage;
 import java.awt.BorderLayout;
 import javax.swing.JPanel;
 import javax.swing.event.AncestorEvent;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Saros main panel view. This is a JPanel and encapsulates the browser canvas. This class is

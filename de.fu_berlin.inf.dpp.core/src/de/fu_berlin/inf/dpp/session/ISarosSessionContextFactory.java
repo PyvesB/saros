@@ -1,6 +1,6 @@
 package de.fu_berlin.inf.dpp.session;
 
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /** Responsible for creating the components of a {@link ISarosSession session}. */
 public interface ISarosSessionContextFactory {

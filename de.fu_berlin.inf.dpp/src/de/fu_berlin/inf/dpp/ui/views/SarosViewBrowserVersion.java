@@ -10,7 +10,7 @@ import org.eclipse.swt.SWTError;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Link;
 import org.eclipse.ui.part.ViewPart;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This view displays an SWTBrowser. The Browser loads an HTML Page which contains the actual UI

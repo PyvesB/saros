@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.ListIterator;
 import org.apache.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Class used to capture and re-apply which editors are currently selected by the user. */
 // TODO consider duplicated open editors during screen splitting

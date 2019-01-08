@@ -23,12 +23,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.osgi.service.prefs.Preferences;
-import org.picocontainer.BindKey;
-import org.picocontainer.MutablePicoContainer;
-import org.picocontainer.PicoBuilder;
-import org.picocontainer.injectors.AnnotatedFieldInjection;
-import org.picocontainer.injectors.CompositeInjection;
-import org.picocontainer.injectors.ConstructorInjection;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.PicoBuilder;
+import saros.org.picocontainer.injectors.AnnotatedFieldInjection;
+import saros.org.picocontainer.injectors.CompositeInjection;
+import saros.org.picocontainer.injectors.ConstructorInjection;
 
 public class StatisticCollectorTest {
 

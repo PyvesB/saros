@@ -17,7 +17,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Button to follow a user. Displays a PopupMenu containing all session users to choose from. */
 public class FollowButton extends ToolbarButton {

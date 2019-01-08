@@ -22,7 +22,7 @@ import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.OperationCanceledException;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.core.runtime.jobs.Job;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * The ErrorLogManager is supposed to upload an error log file to our server at the end of a

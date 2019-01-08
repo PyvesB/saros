@@ -23,7 +23,7 @@ import org.jivesoftware.smack.SmackConfiguration;
 import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smackx.bytestreams.socks5.Socks5Proxy;
-import org.picocontainer.annotations.Nullable;
+import saros.org.picocontainer.annotations.Nullable;
 
 /**
  * This class is responsible for establishing XMPP connections and notifying registered listeners

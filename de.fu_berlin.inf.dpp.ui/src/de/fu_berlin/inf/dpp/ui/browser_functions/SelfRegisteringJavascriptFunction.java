@@ -3,8 +3,8 @@ package de.fu_berlin.inf.dpp.ui.browser_functions;
 import de.fu_berlin.inf.ag_se.browser.functions.JavascriptFunction;
 import de.fu_berlin.inf.dpp.HTMLUIContextFactory;
 import de.fu_berlin.inf.dpp.ui.ide_embedding.BrowserCreator;
-import org.picocontainer.Startable;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.Startable;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Browser functions that inherit from {@link SelfRegisteringJavascriptFunction} (and are added to

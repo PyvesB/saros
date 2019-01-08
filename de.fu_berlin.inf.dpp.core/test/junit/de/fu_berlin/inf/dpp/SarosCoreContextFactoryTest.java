@@ -17,8 +17,8 @@ import java.util.Arrays;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.picocontainer.BindKey;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /** Check the {@link CoreContextFactory} for internal integrity. */
 public class SarosCoreContextFactoryTest {

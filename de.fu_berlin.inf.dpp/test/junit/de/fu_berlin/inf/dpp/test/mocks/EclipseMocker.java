@@ -19,8 +19,8 @@ import org.eclipse.jface.preference.IPreferenceStore;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.Version;
 import org.osgi.service.prefs.Preferences;
-import org.picocontainer.MutablePicoContainer;
 import org.powermock.api.easymock.PowerMock;
+import saros.org.picocontainer.MutablePicoContainer;
 
 public class EclipseMocker {
   /** Mock the static call {@link ResourcesPlugin#getWorkspace()}. */

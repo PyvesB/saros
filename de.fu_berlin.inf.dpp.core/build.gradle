@@ -1,5 +1,6 @@
 eclipse.project { natures 'org.eclipse.pde.PluginNature' }
 
+
 dependencies {
   releaseDep 'commons-codec:commons-codec:1.3'
   releaseDep 'commons-io:commons-io:2.0.1'

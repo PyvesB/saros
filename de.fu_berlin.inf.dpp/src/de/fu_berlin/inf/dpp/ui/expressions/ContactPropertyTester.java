@@ -6,7 +6,7 @@ import de.fu_berlin.inf.dpp.session.ISarosSession;
 import de.fu_berlin.inf.dpp.session.ISarosSessionManager;
 import de.fu_berlin.inf.dpp.session.User;
 import org.eclipse.core.expressions.PropertyTester;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /** Adds tests to a contact represented by a {@link JID}. */
 public class ContactPropertyTester extends PropertyTester {

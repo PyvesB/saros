@@ -12,7 +12,7 @@ import de.fu_berlin.inf.dpp.ui.util.CollaborationUtils;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.swt.graphics.ImageData;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Leaves the current Saros session. Is deactivated if there is no running session.

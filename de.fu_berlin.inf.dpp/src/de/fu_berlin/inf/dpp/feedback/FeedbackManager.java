@@ -16,7 +16,7 @@ import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.window.Window;
 import org.osgi.service.prefs.Preferences;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * The FeedbackManager registers himself as a listener with the {@link ISarosSessionManager} to show

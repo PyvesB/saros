@@ -6,7 +6,7 @@ import de.fu_berlin.inf.dpp.util.ThreadUtils;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import org.apache.log4j.Logger;
-import org.picocontainer.Disposable;
+import saros.org.picocontainer.Disposable;
 
 /** The ExecutorService under which all incoming activities should be executed. */
 @Component(module = "core")

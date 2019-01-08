@@ -12,7 +12,7 @@ import de.fu_berlin.inf.dpp.ui.wizards.pages.ConfigurationSettingsWizardPage;
 import de.fu_berlin.inf.dpp.ui.wizards.pages.ConfigurationSummaryWizardPage;
 import org.bitlet.weupnp.GatewayDevice;
 import org.eclipse.jface.preference.IPreferenceStore;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * A wizard to configure Saros (XMPP account, network settings, statistic submission).

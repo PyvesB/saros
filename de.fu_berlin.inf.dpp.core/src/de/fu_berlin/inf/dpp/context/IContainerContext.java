@@ -1,8 +1,8 @@
 package de.fu_berlin.inf.dpp.context;
 
-import org.picocontainer.MutablePicoContainer;
-import org.picocontainer.PicoCompositionException;
-import org.picocontainer.PicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.PicoCompositionException;
+import saros.org.picocontainer.PicoContainer;
 
 /** Interface for accessing components of a (container based) context. */
 public interface IContainerContext {

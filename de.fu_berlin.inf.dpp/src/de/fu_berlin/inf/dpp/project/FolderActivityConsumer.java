@@ -11,7 +11,7 @@ import de.fu_berlin.inf.dpp.util.FileUtils;
 import org.apache.log4j.Logger;
 import org.eclipse.core.resources.IFolder;
 import org.eclipse.core.runtime.CoreException;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 public final class FolderActivityConsumer extends AbstractActivityConsumer implements Startable {
 

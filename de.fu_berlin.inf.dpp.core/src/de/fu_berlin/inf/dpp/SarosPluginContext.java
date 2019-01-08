@@ -1,8 +1,8 @@
 package de.fu_berlin.inf.dpp;
 
 import de.fu_berlin.inf.dpp.context.IContainerContext;
-import org.picocontainer.PicoCompositionException;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.PicoCompositionException;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * Provides the possibility to initialize a component with the components hold in the given {@link

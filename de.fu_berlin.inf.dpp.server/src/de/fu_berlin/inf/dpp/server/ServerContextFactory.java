@@ -33,8 +33,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.picocontainer.BindKey;
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.BindKey;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * Server implementation of {@link de.fu_berlin.inf.dpp.context.IContextFactory}. In addition to the

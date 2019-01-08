@@ -37,7 +37,7 @@ import org.eclipse.swt.widgets.Layout;
 import org.eclipse.swt.widgets.Tree;
 import org.jivesoftware.smack.Connection;
 import org.jivesoftware.smack.RosterEntry;
-import org.picocontainer.annotations.Inject;
+import saros.org.picocontainer.annotations.Inject;
 
 /**
  * This {@link Composite} displays {@link RosterEntry roster entries} and allows to check (via check

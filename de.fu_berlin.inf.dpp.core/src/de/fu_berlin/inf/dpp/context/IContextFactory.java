@@ -19,7 +19,7 @@
 
 package de.fu_berlin.inf.dpp.context;
 
-import org.picocontainer.MutablePicoContainer;
+import saros.org.picocontainer.MutablePicoContainer;
 
 /**
  * Interface for implementing context factories depending on the current platform Saros is running

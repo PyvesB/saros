@@ -23,7 +23,7 @@ import org.apache.log4j.Logger;
 import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smack.packet.PacketExtension;
-import org.picocontainer.Startable;
+import saros.org.picocontainer.Startable;
 
 /**
  * Business Logic for receiving and sending updates of the invitation state of users. Also handles

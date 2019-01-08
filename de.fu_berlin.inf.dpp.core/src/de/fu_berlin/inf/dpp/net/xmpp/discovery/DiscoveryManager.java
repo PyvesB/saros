@@ -26,7 +26,7 @@ import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Presence;
 import org.jivesoftware.smackx.ServiceDiscoveryManager;
 import org.jivesoftware.smackx.packet.DiscoverInfo;
-import org.picocontainer.Disposable;
+import saros.org.picocontainer.Disposable;
 
 /**
  * This class is responsible for performing ServiceDiscovery for features such as Jingle and Saros.
