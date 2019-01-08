@@ -46,7 +46,7 @@ sonarqube {
   }
 }
 
-ext.projectsToConfigure = subprojects - project(':de.fu_berlin.inf.dpp.ui.frontend')
+ext.projectsToConfigure = subprojects - project(':de.fu_berlin.inf.dpp.ui.frontend') - project(':saros.picocontainer')
 // Configurations that are specific to all subprojects
 // de.fu_berlin.inf.dpp.ui.frontend is not a real subproject and contains
 // only a build.gradle in order to allow to scan the sources of this subproject

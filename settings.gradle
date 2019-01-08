@@ -5,3 +5,6 @@ include 'de.fu_berlin.inf.dpp'
 include 'de.fu_berlin.inf.dpp.whiteboard'
 include 'de.fu_berlin.inf.dpp.intellij'
 include 'de.fu_berlin.inf.dpp.server'
+include 'de.fu_berlin.inf.dpp.core/picocontainer'
+
+project (':de.fu_berlin.inf.dpp.core/picocontainer').name = 'saros.picocontainer'
