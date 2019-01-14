@@ -1,4 +1,4 @@
-package de.fu_berlin.inf.dpp.intellij.editor;
+package saros.intellij.editor;
 
 import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
@@ -10,8 +10,8 @@ import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.ScrollType;
 import com.intellij.openapi.editor.VisualPosition;
 import com.intellij.openapi.project.Project;
-import de.fu_berlin.inf.dpp.intellij.editor.colorstorage.ColorModel;
-import de.fu_berlin.inf.dpp.intellij.filesystem.Filesystem;
+import saros.intellij.editor.colorstorage.ColorModel;
+import saros.intellij.filesystem.Filesystem;
 
 /**
  * IntellJ editor API. An Editor is a window for editing source files.

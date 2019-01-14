@@ -1,4 +1,4 @@
-package de.fu_berlin.inf.dpp.intellij.editor;
+package saros.intellij.editor;
 
 import static org.easymock.EasyMock.expect;
 import static org.fest.assertions.Assertions.assertThat;

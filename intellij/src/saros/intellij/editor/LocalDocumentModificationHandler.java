@@ -1,9 +1,9 @@
-package de.fu_berlin.inf.dpp.intellij.editor;
+package saros.intellij.editor;
 
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.event.DocumentEvent;
 import com.intellij.openapi.editor.event.DocumentListener;
-import de.fu_berlin.inf.dpp.activities.SPath;
+import saros.activities.SPath;
 
 /**
  * Tracks modifications of Documents and triggers matching TextEditActivities. These activities are

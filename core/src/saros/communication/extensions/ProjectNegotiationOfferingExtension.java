@@ -1,10 +1,10 @@
-package de.fu_berlin.inf.dpp.communication.extensions;
+package saros.communication.extensions;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import de.fu_berlin.inf.dpp.negotiation.FileList;
-import de.fu_berlin.inf.dpp.negotiation.ProjectNegotiationData;
-import de.fu_berlin.inf.dpp.negotiation.TransferType;
 import java.util.List;
+import saros.negotiation.FileList;
+import saros.negotiation.ProjectNegotiationData;
+import saros.negotiation.TransferType;
 
 @XStreamAlias(/* ProjectNegotiationOffering */ "PNOF")
 public class ProjectNegotiationOfferingExtension extends ProjectNegotiationExtension {

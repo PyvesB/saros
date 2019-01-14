@@ -1,6 +1,6 @@
-package de.fu_berlin.inf.dpp.intellij.context;
+package saros.intellij.context;
 
-import static de.fu_berlin.inf.dpp.intellij.test.IntellijMocker.mockStaticGetInstance;
+import static saros.intellij.test.IntellijMocker.mockStaticGetInstance;
 
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.command.CommandProcessor;
@@ -11,11 +11,6 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.util.messages.MessageBus;
 import com.intellij.util.messages.MessageBusConnection;
-import de.fu_berlin.inf.dpp.HTMLUIContextFactory;
-import de.fu_berlin.inf.dpp.context.CoreContextFactory;
-import de.fu_berlin.inf.dpp.context.IContainerContext;
-import de.fu_berlin.inf.dpp.context.IContextFactory;
-import de.fu_berlin.inf.dpp.test.mocks.ContextMocker;
 import java.util.ArrayList;
 import java.util.List;
 import org.easymock.EasyMock;
@@ -27,6 +22,11 @@ import org.picocontainer.MutablePicoContainer;
 import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+import saros.HTMLUIContextFactory;
+import saros.context.CoreContextFactory;
+import saros.context.IContainerContext;
+import saros.context.IContextFactory;
+import saros.test.mocks.ContextMocker;
 
 /** Checks the Saros/I context for integrity. */
 @RunWith(PowerMockRunner.class)

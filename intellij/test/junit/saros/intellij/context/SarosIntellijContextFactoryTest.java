@@ -1,6 +1,6 @@
-package de.fu_berlin.inf.dpp.intellij.context;
+package saros.intellij.context;
 
-import static de.fu_berlin.inf.dpp.intellij.test.IntellijMocker.mockStaticGetInstance;
+import static saros.intellij.test.IntellijMocker.mockStaticGetInstance;
 
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.command.CommandProcessor;
@@ -11,10 +11,6 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.util.messages.MessageBus;
 import com.intellij.util.messages.MessageBusConnection;
-import de.fu_berlin.inf.dpp.context.CoreContextFactory;
-import de.fu_berlin.inf.dpp.context.IContextFactory;
-import de.fu_berlin.inf.dpp.test.mocks.ContextMocker;
-import de.fu_berlin.inf.dpp.test.mocks.PrepareCoreComponents;
 import org.easymock.EasyMock;
 import org.junit.Assert;
 import org.junit.Before;
@@ -25,6 +21,10 @@ import org.powermock.api.easymock.PowerMock;
 import org.powermock.core.classloader.annotations.MockPolicy;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
+import saros.context.CoreContextFactory;
+import saros.context.IContextFactory;
+import saros.test.mocks.ContextMocker;
+import saros.test.mocks.PrepareCoreComponents;
 
 /** Checks the {@link SarosIntellijContextFactory} for internal integrity. */
 @RunWith(PowerMockRunner.class)

@@ -1,16 +1,16 @@
-package de.fu_berlin.inf.dpp.intellij.ui.actions;
+package saros.intellij.ui.actions;
 
-import de.fu_berlin.inf.dpp.intellij.editor.EditorManager;
-import de.fu_berlin.inf.dpp.session.ISarosSession;
-import de.fu_berlin.inf.dpp.session.ISarosSessionManager;
-import de.fu_berlin.inf.dpp.session.ISessionLifecycleListener;
-import de.fu_berlin.inf.dpp.session.SessionEndReason;
-import de.fu_berlin.inf.dpp.session.User;
-import de.fu_berlin.inf.dpp.ui.util.ModelFormatUtils;
-import de.fu_berlin.inf.dpp.util.ThreadUtils;
 import java.util.ArrayList;
 import java.util.List;
 import org.picocontainer.annotations.Inject;
+import saros.intellij.editor.EditorManager;
+import saros.session.ISarosSession;
+import saros.session.ISarosSessionManager;
+import saros.session.ISessionLifecycleListener;
+import saros.session.SessionEndReason;
+import saros.session.User;
+import saros.ui.util.ModelFormatUtils;
+import saros.util.ThreadUtils;
 
 /** Action to activateor deactivate follow mode. */
 public class FollowModeAction extends AbstractSarosAction {

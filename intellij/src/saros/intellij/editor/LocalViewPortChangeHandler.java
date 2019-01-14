@@ -1,12 +1,12 @@
-package de.fu_berlin.inf.dpp.intellij.editor;
+package saros.intellij.editor;
 
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.event.VisibleAreaEvent;
 import com.intellij.openapi.editor.event.VisibleAreaListener;
-import de.fu_berlin.inf.dpp.activities.SPath;
-import de.fu_berlin.inf.dpp.editor.text.LineRange;
 import java.awt.Rectangle;
 import org.jetbrains.annotations.NotNull;
+import saros.activities.SPath;
+import saros.editor.text.LineRange;
 
 /** Dispatches activities for viewport changes. */
 class LocalViewPortChangeHandler implements DisableableHandler {

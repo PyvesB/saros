@@ -1,23 +1,23 @@
-package de.fu_berlin.inf.dpp.intellij.ui.views.buttons;
+package saros.intellij.ui.views.buttons;
 
 import com.intellij.util.ui.UIUtil;
-import de.fu_berlin.inf.dpp.SarosPluginContext;
-import de.fu_berlin.inf.dpp.editor.ISharedEditorListener;
-import de.fu_berlin.inf.dpp.intellij.editor.EditorManager;
-import de.fu_berlin.inf.dpp.intellij.ui.actions.FollowModeAction;
-import de.fu_berlin.inf.dpp.session.ISarosSession;
-import de.fu_berlin.inf.dpp.session.ISarosSessionManager;
-import de.fu_berlin.inf.dpp.session.ISessionLifecycleListener;
-import de.fu_berlin.inf.dpp.session.ISessionListener;
-import de.fu_berlin.inf.dpp.session.SessionEndReason;
-import de.fu_berlin.inf.dpp.session.User;
-import de.fu_berlin.inf.dpp.ui.util.ModelFormatUtils;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import org.picocontainer.annotations.Inject;
+import saros.SarosPluginContext;
+import saros.editor.ISharedEditorListener;
+import saros.intellij.editor.EditorManager;
+import saros.intellij.ui.actions.FollowModeAction;
+import saros.session.ISarosSession;
+import saros.session.ISarosSessionManager;
+import saros.session.ISessionLifecycleListener;
+import saros.session.ISessionListener;
+import saros.session.SessionEndReason;
+import saros.session.User;
+import saros.ui.util.ModelFormatUtils;
 
 /** Button to follow a user. Displays a PopupMenu containing all session users to choose from. */
 public class FollowButton extends ToolbarButton {

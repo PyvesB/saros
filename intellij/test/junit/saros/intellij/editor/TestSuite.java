@@ -1,4 +1,4 @@
-package de.fu_berlin.inf.dpp.intellij.editor;
+package saros.intellij.editor;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

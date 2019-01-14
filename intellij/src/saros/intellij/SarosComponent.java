@@ -1,4 +1,4 @@
-package de.fu_berlin.inf.dpp.intellij;
+package saros.intellij;
 
 import com.intellij.openapi.actionSystem.KeyboardShortcut;
 import com.intellij.openapi.keymap.Keymap;
@@ -18,7 +18,7 @@ import org.jetbrains.annotations.NotNull;
 public class SarosComponent implements com.intellij.openapi.components.ProjectComponent {
 
   /** This is the plugin ID that identifies the saros plugin in the IDEA ecosystem. */
-  public static final String PLUGIN_ID = "de.fu_berlin.inf.dpp.intellij";
+  public static final String PLUGIN_ID = "saros.intellij";
 
   public SarosComponent(final Project project) {
     loadLoggers();

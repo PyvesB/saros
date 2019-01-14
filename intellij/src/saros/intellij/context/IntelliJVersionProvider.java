@@ -1,4 +1,4 @@
-package de.fu_berlin.inf.dpp.intellij.context;
+package saros.intellij.context;
 
 import com.intellij.ide.plugins.IdeaPluginDescriptor;
 import com.intellij.ide.plugins.PluginManager;
@@ -11,7 +11,7 @@ import com.intellij.openapi.extensions.PluginId;
  */
 public class IntelliJVersionProvider {
   // plugin id set in plugin.xml with the tag <id>
-  protected static final String PLUGIN_ID = "de.fu_berlin.inf.dpp.intellij";
+  protected static final String PLUGIN_ID = "saros.intellij";
 
   private IntelliJVersionProvider() {
     // NOP

@@ -1,4 +1,4 @@
-package de.fu_berlin.inf.dpp.intellij.ui.swt_browser;
+package saros.intellij.ui.swt_browser;
 
 import com.intellij.ide.plugins.PluginManager;
 import com.intellij.openapi.extensions.PluginId;
@@ -35,7 +35,7 @@ public class SwtToolWindowFactory implements ToolWindowFactory {
             .getFactory()
             .createContent(
                 swtBrowserPanel,
-                PluginManager.getPlugin(PluginId.getId("de.fu_berlin.inf.dpp.intellij")).getName(),
+                PluginManager.getPlugin(PluginId.getId("saros.intellij")).getName(),
                 false);
     toolWindow.getContentManager().addContent(content);
     swtBrowserPanel.initialize();

@@ -1,10 +1,10 @@
-package de.fu_berlin.inf.dpp.intellij.editor;
+package saros.intellij.editor;
 
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.event.SelectionEvent;
 import com.intellij.openapi.editor.event.SelectionListener;
-import de.fu_berlin.inf.dpp.activities.SPath;
 import org.jetbrains.annotations.NotNull;
+import saros.activities.SPath;
 
 /** Dispatches activities for selection changes. */
 class LocalTextSelectionChangeHandler implements DisableableHandler {

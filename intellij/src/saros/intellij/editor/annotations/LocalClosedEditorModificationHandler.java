@@ -1,14 +1,14 @@
-package de.fu_berlin.inf.dpp.intellij.editor.annotations;
+package saros.intellij.editor.annotations;
 
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.event.DocumentEvent;
 import com.intellij.openapi.editor.event.DocumentListener;
-import de.fu_berlin.inf.dpp.activities.SPath;
-import de.fu_berlin.inf.dpp.filesystem.IFile;
-import de.fu_berlin.inf.dpp.intellij.editor.AbstractLocalDocumentModificationHandler;
-import de.fu_berlin.inf.dpp.intellij.editor.EditorManager;
-import de.fu_berlin.inf.dpp.intellij.editor.ProjectAPI;
 import org.jetbrains.annotations.NotNull;
+import saros.activities.SPath;
+import saros.filesystem.IFile;
+import saros.intellij.editor.AbstractLocalDocumentModificationHandler;
+import saros.intellij.editor.EditorManager;
+import saros.intellij.editor.ProjectAPI;
 
 /**
  * Tracks modifications of Documents and adjusts the local annotations accordingly if the document
