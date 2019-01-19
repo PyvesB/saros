@@ -1,7 +1,6 @@
 package de.fu_berlin.inf.dpp.core.ui.util;
 
 import com.intellij.openapi.module.Module;
-import com.intellij.openapi.vfs.VirtualFile;
 import de.fu_berlin.inf.dpp.SarosPluginContext;
 import de.fu_berlin.inf.dpp.core.monitoring.IStatus;
 import de.fu_berlin.inf.dpp.core.monitoring.Status;
@@ -37,7 +36,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.log4j.Logger;
@@ -570,7 +568,6 @@ public class CollaborationUtils {
             LOG.warn("failed to retrieve size of file " + resource, e);
           }
           break;
-        case IResource.PROJECT:
         case IResource.FOLDER:
           if (!includeMembers) {
             break;
