@@ -68,14 +68,24 @@ public class ConsistencyButton extends ToolbarButton {
       new ISessionLifecycleListener() {
         @Override
         public void sessionStarted(ISarosSession newSarosSession) {
-          setSarosSession(newSarosSession);
-          setEnabledFromUIThread(true);
+          if (!newSarosSession.isHost()) {
+            setSarosSession(newSarosSession);
+            setEnabledFromUIThread(true);
+
+          } else {
+            setToolTipText("Recover inconsistencies - Disabled for host");
+          }
         }
 
         @Override
         public void sessionEnded(ISarosSession oldSarosSession, SessionEndReason reason) {
-          setSarosSession(null);
-          setEnabledFromUIThread(false);
+          if (!oldSarosSession.isHost()) {
+            setSarosSession(null);
+            setEnabledFromUIThread(false);
+
+          } else {
+            setToolTipText("Recover inconsistencies");
+          }
         }
       };
 
