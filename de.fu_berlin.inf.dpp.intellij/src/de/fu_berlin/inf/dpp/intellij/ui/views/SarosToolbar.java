@@ -15,7 +15,7 @@ import javax.swing.JToolBar;
  *
  * <p>FIXME: Replace by IDEA toolbar class.
  */
-public class SarosToolbar extends JToolBar {
+class SarosToolbar extends JToolBar {
 
   private static final boolean ENABLE_FOLLOW_MODE =
       Boolean.getBoolean("saros.intellij.ENABLE_FOLLOW_MODE");
@@ -24,7 +24,7 @@ public class SarosToolbar extends JToolBar {
   private static final boolean ENABLE_PREFERENCES =
       Boolean.getBoolean("saros.intellij.ENABLE_PREFERENCES");
 
-  public SarosToolbar() {
+  SarosToolbar() {
     super("Saros IDEA toolbar");
     setLayout(new FlowLayout(FlowLayout.RIGHT));
     addToolbarButtons();
