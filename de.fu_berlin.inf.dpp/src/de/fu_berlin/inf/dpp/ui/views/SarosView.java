@@ -23,6 +23,8 @@ import de.fu_berlin.inf.dpp.ui.actions.DeleteContactAction;
 import de.fu_berlin.inf.dpp.ui.actions.Disposable;
 import de.fu_berlin.inf.dpp.ui.actions.FollowModeAction;
 import de.fu_berlin.inf.dpp.ui.actions.FollowThisPersonAction;
+import de.fu_berlin.inf.dpp.ui.actions.GitChangeWorkDirAction;
+import de.fu_berlin.inf.dpp.ui.actions.GitSendCommitAction;
 import de.fu_berlin.inf.dpp.ui.actions.JumpToUserWithWriteAccessPositionAction;
 import de.fu_berlin.inf.dpp.ui.actions.LeaveSessionAction;
 import de.fu_berlin.inf.dpp.ui.actions.NewContactAction;
@@ -490,6 +492,7 @@ public class SarosView extends ViewPart {
 
             if (participants.get(0).isLocal()) {
               manager.add(getAction(ChangeColorAction.ACTION_ID));
+              manager.add(getAction(GitChangeWorkDirAction.ACTION_ID));
 
               if (isHost) {
                 manager.add(getAction(ChangeWriteAccessAction.WriteAccess.ACTION_ID));
@@ -510,6 +513,7 @@ public class SarosView extends ViewPart {
               manager.add(new Separator());
               manager.add(getAction(OpenChatAction.ACTION_ID));
               manager.add(getAction(SendFileAction.ACTION_ID));
+              manager.add(getAction(GitSendCommitAction.ACTION_ID));
             }
           }
         });
@@ -670,6 +674,8 @@ public class SarosView extends ViewPart {
     registerAction(new SendFileAction());
     registerAction(new ChangeColorAction());
     registerAction(new RemoveUserAction());
+    registerAction(new GitChangeWorkDirAction());
+    registerAction(new GitSendCommitAction());
 
     // ContextMenus Roster/Contact list
     registerAction(new SkypeAction());
