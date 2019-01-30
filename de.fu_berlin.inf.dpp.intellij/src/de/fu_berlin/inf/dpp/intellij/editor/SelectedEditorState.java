@@ -59,14 +59,14 @@ public class SelectedEditorState {
 
     try {
       editorManager.setLocalEditorStatusChangeHandlerEnabled(false);
-      editorManager.setLocalViewPortChangeHandlerEnabled(false);
+      editorManager.setLocalViewPortChangeHandlersEnabled(false);
 
       while (iterator.hasPrevious()) {
         projectAPI.openEditor(iterator.previous(), true);
       }
 
     } finally {
-      editorManager.setLocalViewPortChangeHandlerEnabled(true);
+      editorManager.setLocalViewPortChangeHandlersEnabled(true);
       editorManager.setLocalEditorStatusChangeHandlerEnabled(true);
     }
   }
